@@ -19,8 +19,8 @@ import 'dart:core';
  *    [1][2]
  *    [2][4]
  *    [3][3]
- *    [4][1] --> 4. Höchste Ebene; Breite: 4, da 4 Einträge >= 1
- *    [5][0]
+ *    [4][0] 
+ *    [5][1] --> 4. Höchste Ebene; Breite: 4, da 4 Einträge >= 1
  */
 
 void main() {
