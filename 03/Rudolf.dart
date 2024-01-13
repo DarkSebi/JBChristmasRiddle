@@ -30,10 +30,9 @@ void main() {
 
   // stores height of hill for every coloumn
   List<int> hills = new List.filled(lines[0].length, 0);
-
+    
+  // create hills
   for(String line in lines) {
-
-    // create hills
     int idx = 0;
     line.split('').forEach((character) {
       switch (character) {
@@ -45,7 +44,6 @@ void main() {
           idx++;
       }
     });
-    
   }
 
     // get height of hills descending
