@@ -49,7 +49,7 @@ void main() {
     // get height of hills descending
     List<int> sortedHills = new List.from(hills);
     sortedHills.sort(((a, b) => b.compareTo(a)));
-    sortedHills = sortedHills.toSet().toList();
+    sortedHills = sortedHills.toSet().toList(); // removes redundancy
 
     // compute length of fourthHighestRow
     int lengthOfLevel = 0;
